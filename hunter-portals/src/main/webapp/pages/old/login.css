@@ -1,0 +1,337 @@
+.row:after, .row:before {
+	display: table;
+	content: " "
+}
+
+.row:after {
+	clear: both
+}
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3,
+	.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+	position: relative;
+	min-height: 1px;
+	float: left
+}
+
+.col-sm-12 {
+	width: 100%
+}
+
+.col-sm-11 {
+	width: 91.66667%
+}
+
+.col-sm-10 {
+	width: 83.33333%
+}
+
+.col-sm-9 {
+	width: 75%
+}
+
+.col-sm-8 {
+	width: 66.66667%
+}
+
+.col-sm-7 {
+	width: 58.33333%
+}
+
+.col-sm-6 {
+	width: 50%
+}
+
+.col-sm-5 {
+	width: 41.66667%
+}
+
+.col-sm-4 {
+	width: 33.33333%
+}
+
+.col-sm-3 {
+	width: 25%
+}
+
+.col-sm-2 {
+	width: 16.66667%
+}
+
+.col-sm-1 {
+	width: 8.33333%
+}
+
+.left_box, .right_box {
+	background: #fff;
+	border-top: 2px solid #7399c6;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 15px;
+	margin-top: 20px
+}
+
+.right_box {
+	padding: 20px
+}
+
+ul, li, ol, dl {
+	margin: 0;
+	padding: 0;
+	list-style: none outside none
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	outline: none
+}
+
+a:hover {
+	color: #7399c6;
+	text-decoration: none
+}
+
+a:active {
+	outline: none;
+	star: expression(this.onFocus = this.blur ())
+}
+
+body .login_in_box_bg img {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -9
+}
+
+body .login_in {
+	width: 380px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center
+}
+
+body .login_in .login_box {
+	border-top: 4px solid #7399c6;
+	width: 100%;
+	margin-top: 40px;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 10px
+}
+
+body .login_in .login_box ul {
+	margin: 0;
+	padding: 0
+}
+
+body .login_in .login_box ul li {
+	padding-bottom: 15px;
+	overflow: hidden
+}
+
+body .login_in .login_box ul li input[type=text], body .login_in .login_box ul li input[type=password]
+	{
+	width: 328px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+	color: #999;
+	padding-left: 40px
+}
+
+body .login_in .login_box ul li input[name=login_email], body .login_in .login_box ul li input[name=email]
+	{
+	background: url("../images/login/mail_normal.png") no-repeat 10px
+}
+
+body .login_in .login_box ul li input[name=login_email].login_email_act,
+	body .login_in .login_box ul li input[name=email].login_email_act {
+	background: url("./images/login/mail_press.png") no-repeat 10px;
+	border: 1px solid #7399c6
+}
+
+body .login_in .login_box ul li input[name=login_password], body .login_in .login_box ul li input[name=is_login_password]
+	{
+	background: url("../images/login/password_normal.png") no-repeat 10px
+}
+
+body .login_in .login_box ul li input[name=login_password].login_pass_act,
+	body .login_in .login_box ul li input[name=is_login_password].login_pass_act
+	{
+	background: url("../images/login/password_press.png") no-repeat 10px;
+	border: 1px solid #7399c6
+}
+
+body .login_in .login_box ul li input[type=submit] {
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background: #7399c6;
+	color: #fff;
+	text-align: center
+}
+
+body .login_in .login_box ul li input[type=submit]:hover {
+	background: #008fd0
+}
+
+body .login_in .login_box ul li span {
+	text-align: left;
+	padding: 0
+}
+
+body .login_in .login_box ul li span label {
+	cursor: pointer
+}
+
+body .login_in .login_box ul li a.log_wechat, body .login_in .login_box ul li a.log_regist,
+	body .login_in .login_box ul li a.login_alink {
+	width: 48%;
+	height: 40px;
+	display: block;
+	border-radius: 5px;
+	background: #7399c6;
+	color: #fff;
+	text-align: center;
+	float: right;
+	line-height: 40px
+}
+
+body .login_in .login_box ul li a.log_wechat {
+	float: left;
+	background: #78e25b
+}
+
+body .login_in .login_box ul li a.log_wechat:hover {
+	background: #51c332
+}
+
+body .login_in .login_box ul li a.log_wechat img {
+	margin-right: 10px
+}
+
+body .login_in .login_box ul li a.reme_pw {
+	padding-left: 20px;
+	color: #666;
+	background: url("../images/login/remember_press.png") no-repeat left
+}
+
+body .login_in .login_box ul li a.active {
+	background: url("../images/login/remember_normal.png") no-repeat left
+}
+
+body .login_in .login_box ul li a.log_regist:hover, body .login_in .login_box ul li a.login_alink:hover
+	{
+	background: #008fd0
+}
+
+body .login_in .login_box ul li em {
+	padding: 0;
+	text-align: right
+}
+
+body .login_in .login_box ul li em a {
+	font-style: normal;
+	text-decoration: underline;
+	color: #7399c6
+}
+
+body .login_in .login_box ul li em a:hover {
+	color: #008fd0
+}
+
+body .login_in .login_box ul.regist_box {
+	display: none
+}
+
+body .login_in .login_box ul.regist_box #protocol span {
+	background: url("../images/login/remember_press.png") no-repeat
+		left center;
+	width: 30px;
+	height: 20px;
+	display: block;
+	float: left;
+	cursor: pointer
+}
+
+body .login_in .login_box ul.regist_box #protocol span.active {
+	background: url("../images/login/remember_normal.png") no-repeat
+		left center
+}
+
+body .login_in .login_box ul.regist_box #protocol a {
+	color: #666;
+	margin: 0;
+	display: block;
+	float: left
+}
+
+body .login_in .login_box ul.regist_box #protocol a:hover {
+	color: #7399c6
+}
+
+body .login_in .login_box .regist_sel {
+	overflow: hidden;
+	padding-bottom: 15px
+}
+
+body .login_in .login_box .regist_sel p {
+	display: none;
+	color: #dc513a;
+	margin-top: 5px;
+	float: left;
+	text-align: left
+}
+
+body .login_in .login_box .regist_sel a {
+	width: 48%;
+	height: 40px;
+	display: block;
+	border-radius: 5px;
+	color: #7399c6;
+	border: 1px solid #7399c6;
+	text-align: center;
+	float: right;
+	line-height: 40px
+}
+
+body .login_in .login_box .regist_sel a:first-child {
+	float: left
+}
+
+body .login_in .login_box .regist_sel a:hover, body .login_in .login_box .regist_sel a.active
+	{
+	background: #7399c6;
+	color: #fff
+}
+
+.qrcontainer {
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	text-align: center
+}
+
+#WechatQRCode {
+	margin: auto;
+	width: 300px;
+	height: 400px;
+	line-height: 400px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: white
+}
+
+
+.navbar-right>li>a>span{
+	color: #6F9BB6;
+}
+
+.navbar-right>li>a>span:HOVER{
+	color: #FFFFFF;
+}

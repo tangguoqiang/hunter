@@ -1,0 +1,23 @@
+﻿html {
+	height: 100%
+}
+
+body {
+	margin: 0;
+	padding: 0;
+/* 	background: url("../images/bodybg.png") repeat; */
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	color: #333;
+	font: 14px/1.5 '微软雅黑', 'Microsoft Yahei', Helvetica, arial;
+	*font-size: 12px
+}
+
+.navbar-nav>li>a>span{
+	color: #6F9BB6;
+}
+
+.navbar-nav>li>a>span:HOVER{
+	color: #FFFFFF;
+}

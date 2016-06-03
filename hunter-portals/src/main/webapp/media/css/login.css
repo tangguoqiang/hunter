@@ -1,0 +1,61 @@
+form {
+	margin: 40px 28% 45px 0px;
+	border-radius: 20px;
+	background-color: #D3F1FC;
+}
+
+.form-horizontal button {
+/* 	width: 328px; */
+	width: 90%;
+	height: 55px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	background-color: #465A72 !important;
+	border-radius: 12px;
+/* 	margin: 18px 0px 0px 60px; */
+	margin: 18px 0px 0px 14%;
+	font-size: 1.8em;
+	color: #FFFFFF;
+}
+
+.form-horizontal input[type=text],.form-horizontal input[type=password] {
+/* 	width:328px; */
+	width: 90%;
+	height: 55px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	color: #999;
+	padding-left: 40px;
+	background-color: #FFFFFF !important;
+	border-radius: 12px;
+	margin: 18px 0px 0px 14%;
+	font-size: 1.2em;
+}
+
+.form-horizontal input[name=account] {
+	background: url("../images/login/mail_normal.png") no-repeat 10px
+}
+
+.form-horizontal input[type=password] {
+	background: url("../images/login/password_normal.png") no-repeat 10px
+}
+
+.form-horizontal a.reme_pw {
+	margin: 22px 0px 0px 27%;
+	font-size: 1.2em;
+	color: #666;
+	padding-left:30px;
+	text-decoration:none;
+	cursor:pointer;
+	background: url("../images/login/remember_press.png") no-repeat left
+}
+
+.form-horizontal a.forget_pw {
+	margin: 22px 0px 0px 30%;
+	font-size: 1.2em;
+	color: #AAC1CC;
+}
+
+.form-horizontal a.active {
+	background: url("../images/login/remember_normal.png") no-repeat left
+}
